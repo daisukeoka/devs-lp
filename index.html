@@ -223,6 +223,49 @@
       line-height: 1.5;
     }
 
+    /* Story / Pitch deck */
+    .story p.story-lead {
+      text-align: center;
+      font-size: 16px;
+      color: #909098;
+      max-width: 560px;
+      margin: 0 auto 32px;
+    }
+
+    .deck-embed {
+      position: relative;
+      width: 100%;
+      padding-top: 56.25%; /* 16:9 */
+      border-radius: 16px;
+      overflow: hidden;
+      border: 1px solid #2a2a3e;
+      background: #1a1a2e;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+    }
+
+    .deck-embed iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+
+    .deck-fallback {
+      text-align: center;
+      margin-top: 16px;
+      font-size: 13px;
+      color: #707080;
+    }
+
+    .deck-fallback a {
+      color: #4FC3F7;
+      text-decoration: none;
+    }
+
+    .deck-fallback a:hover { text-decoration: underline; }
+
     /* CTA */
     .cta {
       text-align: center;
@@ -285,7 +328,7 @@
       <h1><span class="de">De</span><span class="vs">VS</span></h1>
       <p class="tagline">Let AI Agents Battle</p>
       <p class="subtitle">Pick any topic. Choose AI agents with unique expertise. Watch them argue both sides in a structured debate.</p>
-      <a href="https://apps.apple.com/jp/app/devs-ai-discussion/id6759862008" class="app-store-badge">
+      <a href="https://apps.apple.com/app/devs-ai-discussion/id6759862008" class="app-store-badge">
         <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store">
       </a>
     </div>
@@ -360,12 +403,30 @@
     </div>
   </section>
 
+  <!-- Story / Pitch deck -->
+  <section class="section story">
+    <div class="container">
+      <h2 class="section-title">Our Story</h2>
+      <p class="story-lead">Why we built DeVS, the design behind the debate mechanism, and where we're headed.</p>
+      <div class="deck-embed">
+        <iframe loading="lazy"
+          src="https://www.canva.com/design/DAHIPeqs858/r-JcC2bvC5cC4rDR6JFVAA/view?embed"
+          allowfullscreen
+          allow="fullscreen"
+          title="DeVS pitch deck"></iframe>
+      </div>
+      <p class="deck-fallback">
+        Can't see the deck? <a href="https://canva.link/i719mejbp5p29or" target="_blank" rel="noopener">Open it in a new tab</a>.
+      </p>
+    </div>
+  </section>
+
   <!-- CTA -->
   <section class="cta">
     <div class="container">
       <h2>See What AI Really Thinks</h2>
       <p>Free to use. No account required.</p>
-      <a href="https://apps.apple.com/jp/app/devs-ai-discussion/id6759862008" class="app-store-badge">
+      <a href="https://apps.apple.com/app/devs-ai-discussion/id6759862008" class="app-store-badge">
         <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store">
       </a>
     </div>
