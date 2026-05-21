@@ -1,6 +1,6 @@
 # 利用規約
 
-最終更新日: 2026年2月28日
+最終更新日: 2026年5月12日
 
 本利用規約（以下「本規約」）は、DeVS（以下「本アプリ」）の利用条件を定めるものです。本アプリをご利用いただくことで、本規約に同意したものとみなします。
 
@@ -41,26 +41,63 @@
 - ユーザーが入力したテーマおよびカスタムエージェント設定はユーザーに帰属します
 - AI によって生成されたディスカッション内容は、ユーザーが自由に利用できます
 
-## 7. 免責事項
+## 7. 有料サービス・サブスクリプション
+
+本アプリでは、追加機能を提供する有料サブスクリプションプランをご利用いただけます。
+
+- **プラン内容**: Basic プラン（月額 $4.99 / 日本: ¥480）
+- **課金周期**: 1ヶ月。期間終了の24時間前までに自動更新を解約しない場合、自動的に同額で更新されます
+- **無料トライアル**: 同一 Apple ID につき1度のみ、7日間の無料トライアルをご利用いただけます。無料トライアル期間中であっても、期間終了の **24時間前まで** に自動更新を解約しない場合、有料プランへ自動的に移行し、課金が発生します
+- **解約方法**: iOS の「設定 > Apple ID > サブスクリプション」から、いつでも解約いただけます
+- **解約のタイミング**: 解約は次回更新日から有効となります。すでに経過した課金期間分の返金は行われません
+- **価格・内容の変更**: 当社はサブスクリプションの価格・内容を変更する場合があります。変更時はアプリ内または本規約上で事前に通知します
+- **未成年者の利用**: 未成年の方がサブスクリプションを利用する場合は、親権者または法定代理人の同意を得た上でご利用ください
+
+## 8. チケット課金（消耗型アイテム）
+
+本アプリでは、ディスカッション回数を追加できる「チケット」を消耗型アイテムとして購入できます。
+
+- **価格**: 1枚 $0.99 / 5枚 $3.99 / 10枚 $6.99（日本円価格はApp Store上の表示に従う）
+- **性質**: 消耗型アイテム（Consumable）。一度使用したチケットは復元できません
+- **使用開始**: 購入完了後、即時に利用可能となります
+- **有効期限**: なし（ただしアプリを削除した場合、未使用のチケット残数は失われます）
+- **残数管理**: チケット残数は端末内（AsyncStorage）にのみ保存されます。当社サーバーでは管理しません
+- **返金**: Apple の返金ポリシーに従います
+
+## 9. 決済・返金
+
+- 本アプリにおけるすべての課金（サブスクリプション・チケット課金）は、Apple（App Store / iTunes Store）を通じて処理されます
+- 当社は、クレジットカード番号、Apple ID、その他の決済情報を一切取得・保持しません
+- 返金については、Apple の返金ポリシーに従います。詳細は Apple サポート（https://support.apple.com/ja-jp/HT204084）をご参照ください
+- 課金処理・返金に関するお問い合わせは、Apple サポートへ直接ご連絡ください
+
+## 10. Apple との関係
+
+- 本規約は、ユーザーと当社（DeVS の開発者）との間の契約であり、**Apple Inc. は本規約の当事者ではありません**
+- 本アプリおよびその内容に関するすべての責任は、Apple ではなく当社が負います
+- ただし、**Apple およびその子会社は本規約の第三者受益者（third-party beneficiary）であり、ユーザーが本規約に同意した時点で、Apple は本規約をユーザーに対して執行する権利を有します**
+- 本アプリに関する保証請求、製品責任、知的財産権侵害の主張、消費者保護法令への適合に関する責任は、Apple ではなく当社が負います
+
+## 11. 免責事項
 
 - 本アプリは「現状のまま」提供されます
 - サービスの中断、データの損失、AI応答の不正確さについて、当社は一切の責任を負いません
 - 端末の故障やアプリのアンインストールによるデータ消失について、当社は責任を負いません
 - 第三者サービス（Claude API、AdMob 等）の障害に起因する問題について、当社は責任を負いません
 
-## 8. サービスの変更・終了
+## 12. サービスの変更・終了
 
 当社は、事前の通知なく本アプリの内容変更、機能の追加・削除、サービスの一時停止または終了を行う場合があります。
 
-## 9. 利用規約の変更
+## 13. 利用規約の変更
 
 本規約は、必要に応じて変更されることがあります。変更があった場合は、本ページの最終更新日を更新します。重大な変更がある場合は、アプリ内で通知する場合があります。
 
-## 10. 準拠法・管轄
+## 14. 準拠法・管轄
 
 本規約は日本法に準拠し、紛争が生じた場合は東京地方裁判所を第一審の専属的合意管轄裁判所とします。
 
-## 11. お問い合わせ
+## 15. お問い合わせ
 
 本規約に関するご質問がございましたら、以下までご連絡ください。
 
@@ -70,7 +107,7 @@
 
 # Terms of Service
 
-Last Updated: February 28, 2026
+Last Updated: May 12, 2026
 
 These Terms of Service (the "Terms") govern your use of DeVS (the "App"). By using the App, you agree to these Terms.
 
@@ -111,26 +148,63 @@ The App displays advertisements through Google AdMob. Ad content is delivered by
 - Topics and custom agent settings entered by users belong to the users
 - AI-generated discussion content may be freely used by users
 
-## 7. Disclaimer
+## 7. Paid Services and Subscriptions
+
+The App offers paid subscription plans that provide additional features.
+
+- **Plan**: Basic plan ($4.99/month / Japan: ¥480/month)
+- **Billing cycle**: Monthly. Unless you cancel auto-renewal at least 24 hours before the end of the current period, your subscription will automatically renew at the same price
+- **Free trial**: A 7-day free trial is available once per Apple ID. If you do not cancel auto-renewal at least **24 hours before** the trial ends, your subscription will automatically convert to a paid subscription and you will be charged
+- **How to cancel**: You can cancel anytime from "Settings > Apple ID > Subscriptions" on iOS
+- **Effective date of cancellation**: Cancellation takes effect at the next renewal date. No refunds are issued for the unused portion of any billing period that has already elapsed
+- **Price and content changes**: We may change the price or content of subscriptions. Any such changes will be notified in advance through the App or in these Terms
+- **Minors**: Minors must obtain consent from a parent or legal guardian before purchasing a subscription
+
+## 8. Tickets (Consumable In-App Purchases)
+
+The App allows you to purchase "tickets" as consumable items that add additional discussion sessions.
+
+- **Pricing**: 1 ticket $0.99 / 5 tickets $3.99 / 10 tickets $6.99 (Japanese yen prices follow the App Store display)
+- **Nature**: Consumable items. Once a ticket is used, it cannot be restored
+- **Activation**: Tickets are available for use immediately upon purchase
+- **Expiration**: None (however, if the App is uninstalled, any unused ticket balance will be lost)
+- **Balance management**: Ticket balances are stored only on your device (AsyncStorage). We do not manage balances on our servers
+- **Refunds**: Subject to Apple's refund policy
+
+## 9. Payment and Refunds
+
+- All purchases in the App (subscriptions and ticket purchases) are processed through Apple (App Store / iTunes Store)
+- We do not collect or retain credit card numbers, Apple IDs, or any other payment information
+- Refunds are subject to Apple's refund policy. For details, see Apple Support (https://support.apple.com/HT204084)
+- For inquiries regarding billing or refunds, please contact Apple Support directly
+
+## 10. Relationship with Apple
+
+- These Terms constitute an agreement between you and us (the developer of DeVS), and **Apple Inc. is not a party to these Terms**
+- We, not Apple, are solely responsible for the App and its content
+- However, **Apple and its subsidiaries are third-party beneficiaries of these Terms, and upon your acceptance of these Terms, Apple has the right (and will be deemed to have accepted the right) to enforce these Terms against you as a third-party beneficiary**
+- We, not Apple, are responsible for any warranty claims, product liability claims, claims of intellectual property infringement, and consumer protection law compliance regarding the App
+
+## 11. Disclaimer
 
 - The App is provided "as is"
 - We are not liable for service interruptions, data loss, or inaccuracies in AI responses
 - We are not responsible for data loss due to device failure or app uninstallation
 - We are not liable for issues caused by third-party service failures (Claude API, AdMob, etc.)
 
-## 8. Service Changes and Termination
+## 12. Service Changes and Termination
 
 We may modify, add or remove features, suspend, or terminate the App without prior notice.
 
-## 9. Changes to These Terms
+## 13. Changes to These Terms
 
 These Terms may be updated as needed. Changes will be reflected by updating the "Last Updated" date. Significant changes may be communicated through in-app notifications.
 
-## 10. Governing Law and Jurisdiction
+## 14. Governing Law and Jurisdiction
 
 These Terms are governed by the laws of Japan. Any disputes shall be subject to the exclusive jurisdiction of the Tokyo District Court as the court of first instance.
 
-## 11. Contact Us
+## 15. Contact Us
 
 If you have any questions about these Terms, please contact us at:
 
